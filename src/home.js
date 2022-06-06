@@ -1,8 +1,15 @@
-const homePage = (function() { //module
-  
-  const content = document.getElementById('content');
+const homePage = () => console.log("Working");
 
-})();
+
+export default homePage;
+
+  // const content = document.getElementById('content');
+
+  // const restaurantName = document.createElement("h1");
+
+  // restaurantName.textContent = "Ryuzashi Ramen";
+
+  // content.appendChild(restaurantName);
 
 //1. make module function that appends elements
 //2. export to index.js
