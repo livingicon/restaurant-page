@@ -2,7 +2,7 @@
 :root {
   --font-color: #eee;
   --font-color-dark: #aaa;
-  --background-dark: rgba(0, 0, 0, 0.8);
+  --background-dark: rgba(63, 15, 0, 0.7);
 }
 
 html {
@@ -26,7 +26,7 @@ body {
 }
 
 #header {
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,12 +35,21 @@ body {
   background-color: var(--background-dark);
 }
 
+h1 {
+  margin: 15px 0px 15px;
+}
+
+.nav-btns {
+  font-size: 2.5rem;
+}
+
 /* MAIN */
 
 #main-content {
+  border-radius: 45px;
   max-width: 700px;
-  padding: 4rem;
-  margin: 6rem 0;
+  padding: 30px;
+  margin: 90px;
   font-size: 2rem;
   background-color: var(--background-dark);
 }
@@ -52,14 +61,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 1.7rem;
+  height: 525px;
+  width: 618px;
   animation: fadeIn 2s;
 }
 
 #homeImg {
-  width: 60%;
+  width: 50%;
   border-radius: 50%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 @keyframes fadeIn {
