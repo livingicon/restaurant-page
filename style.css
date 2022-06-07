@@ -5,37 +5,34 @@
   --background-dark: rgba(0, 0, 0, 0.8);
 }
 
-body {
-  font-size: 1.6rem;
-  color: var(--font-color);
-  background-image: url('./images/david-hunter-xhOkqfXYls8-unsplash.jpg');
-  /* background-attachment: fixed; */
-  background-size: cover;
+html {
+  font-size: 1rem;
 }
 
-img {
-  display: block;
-  width: 100%;
+body {
+  /* font-family:  */
+  color: var(--font-color);
+  background-image: url('./images/david-hunter-xhOkqfXYls8-unsplash.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
 }
 
 #content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 100vh;
+
 }
 
 #header {
-  font-size: 2.4rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* padding: 2rem; */
   background-color: var(--background-dark);
-  /* border-bottom: 1px solid var(--border-color); */
 }
 
 /* MAIN */
@@ -55,12 +52,22 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 525px;
-  width: 618px;
+  animation: fadeIn 2s;
 }
 
-#home, img {
+#homeImg {
+  width: 60%;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
