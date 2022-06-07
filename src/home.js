@@ -1,20 +1,18 @@
 const LoadPage = (function() {
-  const homePage = () => console.log("Working");
+
+  const homePage = function() {
+    const content = document.getElementById('content');
+
+    const restaurantName = document.createElement('h1');
+    restaurantName.textContent = "Ryuzashi Ramen";
+
+    content.appendChild(restaurantName);
+  };
+
   return { homePage };
 })();
 
 export default LoadPage;
-
-  // const content = document.getElementById('content');
-
-  // const restaurantName = document.createElement("h1");
-
-  // restaurantName.textContent = "Ryuzashi Ramen";
-
-  // content.appendChild(restaurantName);
-
-//1. make module function that appends elements
-//2. export to index.js
 
 /* <div id="headline">
 <h1>Ryuzashi Ramen</h1>
