@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Working")})();
+(()=>{"use strict";!function(){const t=document.getElementById("content"),e=document.createElement("h1");e.textContent="Ryuzashi Ramen",t.appendChild(e)}()})();
