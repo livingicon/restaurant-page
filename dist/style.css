@@ -1,0 +1,66 @@
+
+:root {
+  --font-color: #eee;
+  --font-color-dark: #aaa;
+  --background-dark: rgba(0, 0, 0, 0.8);
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--font-color);
+  background-image: url('./images/david-hunter-xhOkqfXYls8-unsplash.jpg');
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#header {
+  font-size: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* padding: 2rem; */
+  background-color: var(--background-dark);
+  /* border-bottom: 1px solid var(--border-color); */
+}
+
+/* MAIN */
+
+#main-content {
+  max-width: 700px;
+  padding: 4rem;
+  margin: 6rem 0;
+  font-size: 2rem;
+  background-color: var(--background-dark);
+}
+
+/* HOME PAGE */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 525px;
+  width: 618px;
+}
+
+#home, img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
