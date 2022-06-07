@@ -1,7 +1,9 @@
-const homePage = () => console.log("Working");
+const LoadPage = (function() {
+  const homePage = () => console.log("Working");
+  return { homePage };
+})();
 
-
-export default homePage;
+export default LoadPage;
 
   // const content = document.getElementById('content');
 

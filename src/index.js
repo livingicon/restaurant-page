@@ -1,2 +1,2 @@
-import homePage from './home';
-homePage(); //this is working (console.log("Working"));
+import LoadPage from './home';
+LoadPage.homePage(); //this is working (console.log("Working"));
