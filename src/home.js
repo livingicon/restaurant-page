@@ -13,7 +13,8 @@ const LoadPage = (function() {
     header.setAttribute('id', 'header');
     main.setAttribute('id', 'main-content');
     home.setAttribute('id', 'home');
-    ramen.setAttribute('src', './images/dlkr-SWyMV4kPlDo-unsplash.jpg')
+    ramen.setAttribute('id', 'homeImg');
+    ramen.setAttribute('src', './images/masahiro-miyagi-woF6s-esrds-unsplash.jpg')
     ramen.setAttribute('alt', 'ramen');
     restaurantName.textContent = "Ryuzashi Ramen";
     restaurantAbout.textContent = 
