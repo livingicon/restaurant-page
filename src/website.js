@@ -1,4 +1,3 @@
-
 const loadPage = (function() {
 
   const website = function() {
@@ -26,10 +25,9 @@ const loadPage = (function() {
     navigation.appendChild(homeBtn);
     navigation.appendChild(menuBtn);
     navigation.appendChild(contactBtn);
-
   };
 
-  return { website, content };
+  return { website, content } //logIt };
 
 })();
 
