@@ -27,7 +27,7 @@ const loadPage = (function() {
     navigation.appendChild(contactBtn);
   };
 
-  return { website, content } //logIt };
+  return { website, content }
 
 })();
 

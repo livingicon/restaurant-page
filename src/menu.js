@@ -1,7 +1,7 @@
 import loadPage from './website';
 
 const menuPage = function() {
-  loadPage.website()
+  // loadPage.website()
 
   const menuContent = document.createElement('div');
   const menu = document.createElement('div');
