@@ -8,6 +8,9 @@ const homePage = function() {
   const ramen = document.createElement('img');
   const established = document.createElement('p');
 
+  homeBtn.style.borderBottom = "2px solid #eee";
+  menuBtn.style.borderBottom = "none";
+  contactBtn.style.borderBottom = "none";
   homeContent.setAttribute('id', 'home-content');
   home.setAttribute('id', 'home');
   restaurantAbout.textContent = 

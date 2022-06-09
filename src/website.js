@@ -13,8 +13,11 @@ const loadPage = (function() {
     restaurantName.textContent = "Ryuzashi Ramen";
     navigation.classList.add('nav-btns');
     homeBtn.setAttribute('id', 'homeBtn');
+    homeBtn.classList.add('buttons');
     menuBtn.setAttribute('id', 'menuBtn');
+    menuBtn.classList.add('buttons');
     contactBtn.setAttribute('id', 'contactBtn');
+    contactBtn.classList.add('buttons');
     homeBtn.textContent = "Home";
     menuBtn.textContent = "Menu";
     contactBtn.textContent = "Contact";

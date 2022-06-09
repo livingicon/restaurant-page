@@ -27,6 +27,9 @@ const menuPage = function() {
 
 
   //Content
+  menuBtn.style.borderBottom = "2px solid #eee";
+  homeBtn.style.borderBottom = "none";
+  contactBtn.style.borderBottom = "none";
   menuContent.setAttribute('id', 'menu-content');
   menu.setAttribute('id', 'menu-items');
 

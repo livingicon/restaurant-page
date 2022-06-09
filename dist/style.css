@@ -1,3 +1,4 @@
+/* GENERAL */
 
 :root {
   --font-color: #eee;
@@ -10,7 +11,7 @@ html {
 }
 
 body {
-  /* font-family:  */
+  overflow-y: scroll;
   color: var(--font-color);
   background-image: url('./images/david-hunter-xhOkqfXYls8-unsplash.jpg');
   background-attachment: fixed;
@@ -24,6 +25,8 @@ body {
   align-items: center;
 
 }
+
+/* HEADER */
 
 #header {
   font-size: 2.5rem;
@@ -47,19 +50,17 @@ h1 {
 }
 
 
-/* .nav-btns:hover {
-
+.buttons:hover {
+  cursor: pointer;
 }
 
-.nav-btns:active {
-  border-bottom: 2px solid var(--font-color);
-} */
+.buttons:active {
+  /* border-bottom: 2px solid var(--font-color); */
+}
 
 #homeBtn, #menuBtn {
   margin-right: 30px;
 }
-
-/* MAIN */
 
 #home-content, 
 #menu-content,

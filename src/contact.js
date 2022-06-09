@@ -13,6 +13,9 @@ const contactPage = function() {
   const emailIcon = document.createElement('img');
   const email = document.createElement('p');
 
+  contactBtn.style.borderBottom = "2px solid #eee";
+  homeBtn.style.borderBottom = "none";
+  menuBtn.style.borderBottom = "none";
 
   contactContent.setAttribute('id', 'contact-content');
   phone.setAttribute('id', 'phone');
