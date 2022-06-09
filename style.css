@@ -92,14 +92,34 @@ h1 {
 
 /* MENU PAGE */
 
-#menu-items {
+.dishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 45px;
+  background-color: rgb(223, 55, 4);
+  padding: 15px;
+  margin-bottom: 30px;
+}
 
+h4 {
+  margin: 10px 0px;
+}
+
+.dishes p {
+  font-size: 1.7rem;
+  margin-top: 7px;
 }
 
 .dishPics {
-  border-radius: 20%;
-  height: 200px;
+  padding-top: 20px;
+  border-radius: 45px;
+  height: 350px;
+  justify-items: center;
 }
+
+/* ANIMATION */
 
 @keyframes fadeIn {
   0% {
