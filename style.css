@@ -2,7 +2,7 @@
 :root {
   --font-color: #eee;
   --font-color-dark: #aaa;
-  --background-dark: rgba(63, 15, 0, 0.7);
+  --background-dark: rgba(49, 11, 0, 0.8);
 }
 
 html {
@@ -52,14 +52,16 @@ h1 {
 
 /* MAIN */
 
-#home-content {
+#home-content, 
+#menu-content,
+#contact-content {
   border-radius: 45px;
   max-width: 700px;
   padding: 30px;
   margin: 95px;
   font-size: 2rem;
   background-color: var(--background-dark);
-  animation: fadeIn 2s;
+  animation: fadeIn 1.5s;
 }
 
 /* HOME PAGE */
@@ -77,6 +79,17 @@ h1 {
 #homeImg {
   width: 50%;
   border-radius: 50%;
+}
+
+/* MENU PAGE */
+
+#menu-items {
+
+}
+
+.dishPics {
+  border-radius: 20%;
+  height: 200px;
 }
 
 @keyframes fadeIn {
