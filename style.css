@@ -54,10 +54,6 @@ h1 {
   cursor: pointer;
 }
 
-.buttons:active {
-  /* border-bottom: 2px solid var(--font-color); */
-}
-
 #homeBtn, #menuBtn {
   margin-right: 30px;
 }
