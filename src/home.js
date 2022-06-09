@@ -1,7 +1,6 @@
 import loadPage from './website';
 
 const homePage = function() {
-  // loadPage.website()
 
   const homeContent = document.createElement('div');
   const home = document.createElement('div');
