@@ -119,6 +119,12 @@ h4 {
   justify-items: center;
 }
 
+/* CONTACT PAGE */
+
+#contact-content p {
+  margin-top: 0px;
+}
+
 /* ANIMATION */
 
 @keyframes fadeIn {
