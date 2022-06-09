@@ -6,13 +6,13 @@ const menuPage = function() {
   const menu = document.createElement('div');
   const dishOne = document.createElement('div');
   const dishOnePic = document.createElement('img');
-  const dishOneName = document.createElement('h3');
+  const dishOneName = document.createElement('h5');
   const dishOneDescription = document.createElement('p');
 
   menuContent.setAttribute('id', 'menu-content');
   menu.setAttribute('id', 'menu-items');
-  dishOne.classList.add('dishes');
-  dishOnePic.setAttribute('id', 'dishOneImg');
+  dishOne.setAttribute('id', 'dishOne');
+  dishOnePic.classList.add('dishPics');
   dishOnePic.setAttribute('src', './images/dishOne.jpg')
   dishOnePic.setAttribute('alt', 'spicy miso ramen');
   dishOneName.textContent = "SPICY MISO RAMEN";
