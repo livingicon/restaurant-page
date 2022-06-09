@@ -46,6 +46,15 @@ h1 {
   margin-bottom: 15px;
 }
 
+
+/* .nav-btns:hover {
+
+}
+
+.nav-btns:active {
+  border-bottom: 2px solid var(--font-color);
+} */
+
 #homeBtn, #menuBtn {
   margin-right: 30px;
 }
