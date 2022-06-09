@@ -7,22 +7,22 @@ const menuPage = function() {
 
   const dishOne = document.createElement('div');
   const dishOnePic = document.createElement('img');
-  const dishOneName = document.createElement('h5');
+  const dishOneName = document.createElement('h4');
   const dishOneDescription = document.createElement('p');
 
   const dishTwo = document.createElement('div');
   const dishTwoPic = document.createElement('img');
-  const dishTwoName = document.createElement('h5');
+  const dishTwoName = document.createElement('h4');
   const dishTwoDescription = document.createElement('p');
 
   const dishThree = document.createElement('div');
   const dishThreePic = document.createElement('img');
-  const dishThreeName = document.createElement('h5');
+  const dishThreeName = document.createElement('h4');
   const dishThreeDescription = document.createElement('p');
 
   const dishFour = document.createElement('div');
   const dishFourPic = document.createElement('img');
-  const dishFourName = document.createElement('h5');
+  const dishFourName = document.createElement('h4');
   const dishFourDescription = document.createElement('p');
 
 
@@ -30,28 +30,28 @@ const menuPage = function() {
   menuContent.setAttribute('id', 'menu-content');
   menu.setAttribute('id', 'menu-items');
 
-  dishOne.setAttribute('id', 'dishOne');
+  dishOne.classList.add('dishes');
   dishOnePic.classList.add('dishPics');
   dishOnePic.setAttribute('src', './images/dishOne.jpg')
   dishOnePic.setAttribute('alt', 'spicy miso ramen');
   dishOneName.textContent = "SPICY MISO RAMEN";
   dishOneDescription.textContent = "Citarasa sup miso pedas yang lezat.";
 
-  dishTwo.setAttribute('id', 'dishTwo');
+  dishTwo.classList.add('dishes');
   dishTwoPic.classList.add('dishPics');
   dishTwoPic.setAttribute('src', './images/dishTwo.jpeg')
   dishTwoPic.setAttribute('alt', 'curry ramen');
   dishTwoName.textContent = "CURRY RAMEN";
   dishTwoDescription.textContent = "ramen dengan citarasa kuah kari.";
 
-  dishThree.setAttribute('id', 'dishThree');
+  dishThree.classList.add('dishes');
   dishThreePic.classList.add('dishPics');
   dishThreePic.setAttribute('src', './images/dishThree.jpg')
   dishThreePic.setAttribute('alt', 'abura soba');
   dishThreeName.textContent = "ABURA SOBA";
   dishThreeDescription.textContent = "Dikenal sebagai ramen tanpa sup.";
 
-  dishFour.setAttribute('id', 'dishFour');
+  dishFour.classList.add('dishes');
   dishFourPic.classList.add('dishPics');
   dishFourPic.setAttribute('src', './images/dishFour.jpg')
   dishFourPic.setAttribute('alt', 'yakiniku don');
